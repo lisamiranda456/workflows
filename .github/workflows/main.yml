@@ -1,0 +1,13 @@
+name: Email Action Test
+
+on:
+  push:
+    branches:
+      - main  # Runs the action when you push to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lisa.miranda@gramener.com
+        run: echo "Hello, world!"
